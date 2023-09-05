@@ -17,7 +17,7 @@ A Jobapi app
 - joi
 - swagger-ui-express
 - jsonwebtoken
-- http-ststus-code
+- http-status-code
 
 
 ## Installation
