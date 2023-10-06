@@ -2,6 +2,10 @@
 
 A Jobapi app
 
+## Features
+
+- **User**: User can register, login, logout, update password, verify username, update profile and update password.
+
 ## Built With:
 
 - JavaScript
@@ -18,7 +22,7 @@ A Jobapi app
 - swagger-ui-express
 - jsonwebtoken
 - http-status-code
-
+- moment
 
 ## Installation
 
