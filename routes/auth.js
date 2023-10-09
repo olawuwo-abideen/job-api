@@ -17,7 +17,7 @@ const apiLimiter = rateLimiter({
 router.post('/register', apiLimiter, register);
 router.post('/login', apiLimiter, login);
 router.patch('/updateUser', authenticateUser, updateUser);
-
+router.get('/logout', logout);
 
 
 
