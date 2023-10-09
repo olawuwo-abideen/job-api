@@ -8,9 +8,9 @@ A Jobapi app
 
 ## Built With:
 
-- JavaScript
-- Node
-- Express
+- javaScript
+- node
+- express
 - dotenv
 - mongoose
 - nodemon
