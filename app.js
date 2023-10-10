@@ -1,10 +1,10 @@
 require('dotenv').config();
 require('express-async-errors');
-
-
 const helmet = require('helmet');
 const express = require('express');
+const cookieParser = require('cookie-parser')
 const app = express();
+
 
 const connectDB = require('./db/connect');
 const authenticateUser = require('./middleware/authentication');
@@ -22,7 +22,7 @@ app.set('trust proxy', 1);
 
 app.use(express.json());
 app.use(helmet());
-
+app.use(cookieParser())
 
 
 // routes

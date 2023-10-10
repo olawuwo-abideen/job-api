@@ -15,6 +15,7 @@ A Jobapi app
 - mongoose
 - nodemon
 - cors
+- cookie-parser
 - bcryptjs
 - express-async-error
 - helmet
