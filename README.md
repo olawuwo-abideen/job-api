@@ -1,6 +1,7 @@
 # Jobapi
 
-A Jobapi app
+Build a Backend to job search and recruitment application that connects job seekers with employers and streamlines the hiring process. This application aims to provide job seekers with
+opportunities and for employers to post job listings and manage candidate applications.
 
 ## Features
 
